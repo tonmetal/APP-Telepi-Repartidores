@@ -1,4 +1,16 @@
+body{
+    background-color: brown;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
 
-#formulario{
+.formulario{
     margin: 20px;
+    color: aliceblue;
+}
+
+#boton{
+    margin: 20px;
+    color: brown;
+    font-weight: bold;
 }

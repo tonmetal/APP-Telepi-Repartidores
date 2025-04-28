@@ -11,30 +11,25 @@
 
     </nav>
     <main>
-         <form>
-            <div class="formulario">
-                <label>Horas</label><br>
-                <input type="text" id="hours" required maxlength="3"><br>
-            </div>
-            <div class="formulario">
-                <label>Pedidos</label><br>
-                <input type="text" id="deliverys" required maxlength="3"><br>
-            </div>
-            <div class="formulario">
-                <label>Pedidos Bar</label><br>
-                <input type="text" id="burguer" required maxlength="3"><br>
-            </div>    
-            <div>
-                <button id="boton">Enviar</button><br>
-            </div>
-            <div class="formulario">
-                <output>Resultado</output>
-            </div>
-    </form>
+         <form id="calculadora">
+                <label for="Horas">Horas</label><br>
+                <input type="number" id="Horas" name="Horas" required min="0"  max="200" step="0.01"><br><br>
+
+                <label for="Pedidos">Pedidos</label><br>
+                <input type="number" id="Pedidos"  name="Pedidos"  required min="0" max="400" step="1"><br><br>
+            
+                <label for="Bar">Pedidos Bar</label><br>
+                <input type="number" id="Bar" name="Bar" required min="0" max="100" step="1"> <br><br>
+            
+                <button type="button" onclick="calcular()">Calcular</button><br>
+
+         </form>
+         <h3> Resultado: <output id="Resultado">0€</output></h3>
     </main>
     <footer>
 
     </footer>
-    
+
+    <script src="script.js"></script>    
 </body>
 </html>

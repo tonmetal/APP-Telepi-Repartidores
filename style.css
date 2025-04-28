@@ -2,15 +2,28 @@ body{
     background-color: brown;
     font-weight: 200;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }   
 
-.formulario{
+#calculadora{
     margin: 20px;
+    color: aliceblue;
+    width: 200px;
+}
+h3{
     color: aliceblue;
 }
 
-#boton{
+button{
     margin: 20px;
     color: brown;
     font-weight: bold;
+}
+input{
+    width: 150px;
+    height: 20px;
+    margin: 10PX;
+}
+label{
+    
 }

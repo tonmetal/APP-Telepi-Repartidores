@@ -1,5 +1,9 @@
-function Telepi(horas,pedidos,bar){
+function telepi(horas,pedidos,bar){
     return horas*7.67 + pedidos*0.48 + bar*0.5
+}
+
+function vacaciones(a,b,c,d,e,f,dias){
+    return (((a+b+c+d+e+f)/6)/30) * dias
 }
 
 function calcular(){
@@ -13,7 +17,7 @@ function calcular(){
         return;
     }
 
-    let resultado = Telepi(horas,pedidos,bar);
+    let resultado = telepi(horas,pedidos,bar);
 
     document.getElementById("Resultado").textContent = resultado.toFixed(2) + "€"
 

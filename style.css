@@ -40,6 +40,10 @@ span img{
     text-align: center;
 }
 
+input{
+    text-align: right;
+}
+
 main{
     margin-top: 50px;
 }

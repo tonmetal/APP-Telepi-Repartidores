@@ -9,7 +9,10 @@
 </head>
 <body>
     <nav>
-
+        <span>
+            <img src="logo.png" />
+            <h1>CALCULA TU NOMINA</h1>
+        </span>
     </nav>
     <main>
         <form id="calculadora">
@@ -22,14 +25,14 @@
                 <label for="Bar">Pedidos Bar</label><br>
                 <input type="number" id="Bar" name="Bar" required min="0" max="100" step="1" value="0" onfocus="limpiarValor(this)" > <br><br>
             
-                <button type="button" onclick="calcular()">Calcular</button>
+                <button class="boton-alto" type="button" onclick="calcular()">Calcular</button>
                 <button type="button" onclick="resetear()">Reset</button>
 
         </form>
-        <h3> Resultado: <output id="Resultado">0€</output></h3>
+        <p> Resultado: <output id="Resultado">0€</output></p>
     </main>
     <footer>
-<a href="vacaciones.html">Calculadora vacaciones</a>
+<a href="vacaciones.html" class="enlace-basico">Calculadora vacaciones</a>
     </footer>
 
     <script src="script.js"></script>    
